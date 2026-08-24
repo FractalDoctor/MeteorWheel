@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteor Wheel - Is It Worth Going Outside Tonight?</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: #0A0D1C;
+            color: #F0EDE0;
+            font-family: "Cormorant Garamond", "Palatino", "Georgia", serif;
+            font-size: 17px;
+            line-height: 1.7;
+            padding: 40px 20px;
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        .border-ornament {
+            text-align: center;
+            color: #C79E4F;
+            font-size: 20px;
+            letter-spacing: 8px;
+            padding: 8px 0;
+            opacity: 0.6;
+        }
+
+        h1 {
+            color: #F5E6C8;
+            font-size: 32px;
+            font-weight: 600;
+            text-align: center;
+            padding: 20px 0 4px 0;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
+
+        .tagline {
+            text-align: center;
+            color: #8A8FA0;
+            padding: 0 0 24px 0;
+            font-size: 16px;
+            font-style: italic;
+        }
+
+        .band-row {
+            text-align: center;
+            font-size: 13px;
+            color: #C79E4F;
+            padding: 8px 0 24px 0;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            color: #C79E4F;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 24px 0 8px 0;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            border-bottom: 1px solid rgba(199, 158, 79, 0.2);
+            margin-bottom: 8px;
+        }
+
+        p { color: #F0EDE0; padding: 6px 0; opacity: 0.9; }
+
+        ul { list-style: none; padding: 0; }
+        ul li { padding: 5px 0; color: #F0EDE0; opacity: 0.9; }
+        ul li::before { content: "\2726 "; color: #C79E4F; }
+
+        a {
+            color: #C79E4F;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(199, 158, 79, 0.3);
+            transition: border-color 0.2s;
+        }
+        a:hover { border-color: #C79E4F; }
+
+        .content { padding: 0 8px; }
+
+        .links { padding-top: 28px; text-align: center; font-size: 15px; }
+        .links a { display: inline-block; margin: 0 16px; }
+
+        .footer {
+            text-align: center;
+            padding-top: 32px;
+            color: #8A8FA0;
+            font-size: 13px;
+            font-style: italic;
+        }
+
+        .sky-accent { color: #C79E4F; }
+    </style>
+</head>
+<body>
+
+<div class="border-ornament">&mdash; &#10022; &mdash;</div>
+
+<h1>Meteor Wheel</h1>
+<div class="tagline">Is it worth going outside tonight?</div>
+<div class="band-row">Optimal &middot; Good &middot; Fair &middot; Poor &middot; Washed Out</div>
+
+<div class="content">
+
+<p>Most meteor apps hand you a calendar of dates. Meteor Wheel weighs tonight&rsquo;s sky at your location and gives you a verdict.</p>
+
+<p>It accounts for how much of the Moon is lit and whether it is up during your dark window, how high the radiant climbs, the length of real darkness at your latitude, and the light pollution where you stand. Nineteen annual showers, ranked by what you will actually see.</p>
+
+<h2>Features</h2>
+<ul>
+    <li><span class="sky-accent">Tonight</span> &mdash; the shower that matters for your sky, with its usable window, radiant altitude, where to look, Moon state and expected rate per hour</li>
+    <li><span class="sky-accent">The Wheel</span> &mdash; the year as a brass dial, every shower an arc sized to its activity period, with today marked on the rim</li>
+    <li>Calendar &mdash; activity by date, so a peak can be planned around rather than missed</li>
+    <li><span class="sky-accent">Watch log</span> &mdash; start a watch, tap to count, and see your observed rate against the rate that was forecast</li>
+    <li>Lifetime totals for watches, meteors counted and showers seen against the catalogue</li>
+    <li>CSV export of a single watch or the whole log, to Files, Mail or AirDrop</li>
+    <li>Reference &mdash; sourced numbers for every shower, zenithal hourly rate, population index, entry velocity, radiant coordinates and parent body</li>
+    <li>Home-screen widgets in two sizes, each carrying tonight&rsquo;s radiant illustration, plus Lock Screen accessories</li>
+    <li>Optional peak reminders, with your own choice of warning days and the lowest verdict worth being told about</li>
+    <li>Multiple observing sites, each with its own sky-darkness rating</li>
+    <li>Nineteen radiant plates in the manner of an antique star atlas, engraved lunar phases, and a night sky with real meteors drifting across it</li>
+    <li>Built to be used one-handed in the dark, where nothing shifts under your thumb</li>
+</ul>
+
+<h2>About the Numbers</h2>
+<p>Every figure in the catalogue comes from a source rather than an estimate, principally the International Meteor Organization&rsquo;s working list of visual meteor showers. Where a value is genuinely unknown, the app says so on its Reference tab instead of inventing one.</p>
+
+<h2>Privacy</h2>
+<p>No ads. No tracking. No subscriptions. No in-app purchases. No network calls. Every calculation, from solar longitude to Moon phase to radiant altitude, runs on your device, so it works in a field with no signal.</p>
+
+<h2>Support</h2>
+<p>Need help with Meteor Wheel? Whether you have a question, want to request a feature, or need to report a problem:</p>
+<ul>
+    <li><a href="https://github.com/FractalDoctor/MeteorWheel/issues/new?labels=question" target="_blank" rel="noopener">Ask a question</a> &mdash; get help using the app</li>
+    <li><a href="https://github.com/FractalDoctor/MeteorWheel/issues/new?labels=bug" target="_blank" rel="noopener">Report a bug</a> &mdash; let us know if something isn&rsquo;t working</li>
+    <li><a href="https://github.com/FractalDoctor/MeteorWheel/issues/new?labels=enhancement" target="_blank" rel="noopener">Request a feature</a> &mdash; suggest an improvement or a shower worth adding</li>
+</ul>
+<p>You can also browse <a href="https://github.com/FractalDoctor/MeteorWheel/issues" target="_blank" rel="noopener">existing issues</a> to see if your question has already been answered.</p>
+
+<div class="links">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="https://github.com/FractalDoctor/MeteorWheel/issues">Support &amp; Issues</a>
+</div>
+
+</div>
+
+<div class="footer">
+    <p>Nineteen showers, one turning year.</p>
+</div>
+
+<div class="border-ornament" style="padding-top: 16px;">&mdash; &#10022; &mdash;</div>
+
+</body>
+</html>
